@@ -1,0 +1,89 @@
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bg-blue {
+    background-color: #0065ff;
+}
+
+.banner {
+    font-family: 'Montserrat' , sans-serif;
+    color: white;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.jumbotron h3 {
+    color: #4e5f83;
+    text-align: center;
+}
+
+.jumbotron .blue-font {
+    color: #0065ff;
+}
+
+.jumbotron p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.form-group input {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    background-color: #0080ff;
+}
+
+.bg-grey {
+    background-color: #f3f5f9;
+}
+
+.brands {
+    text-align: center;
+    font-size: 18px;
+}
+
+.jm_icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.brands img {
+    width: 200px;
+    height: 150px;
+}
+
+.deploy h2, h4 {
+    text-align: center;
+}
+
+.deploy h2 {
+    font-size: 35px;
+    color: #031b4e;
+}
+
+.deploy h4 {
+    font-size: 22px;
+    color: #4e5f83;
+}
