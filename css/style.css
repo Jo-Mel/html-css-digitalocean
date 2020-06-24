@@ -1,10 +1,25 @@
 section {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .bg-blue {
+    background-color: hsl(220,95%,8%);
+    /* background-color: #202080; */
+    color: white;
+}
+
+.jm_top,
+.globe,
+.jm_cta {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jm_top {
     background-color: #0065ff;
+    background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
 }
 
 .banner {
@@ -74,16 +89,148 @@ section {
     height: 150px;
 }
 
-.deploy h2, h4 {
+.deploy h2, h4,
+.dev h2, h4 {
     text-align: center;
 }
 
-.deploy h2 {
+.deploy h2,
+.dev h2,
+.jm_cards h2 {
     font-size: 35px;
     color: #031b4e;
 }
 
-.deploy h4 {
+.deploy h4,
+.dev h4 {
     font-size: 22px;
     color: #4e5f83;
+}
+
+.jm_link ul li {
+    margin-top: 25px;
+}
+
+.jm_link ul li a {
+    font-size: 20px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    color: #4e5f83;
+}
+
+.service-row {
+    margin-top: 30px;
+}
+
+.nest {
+    margin-top: 30px;
+}
+
+.nest .row-2 {
+    padding-top: 30px;
+}
+
+.row .row-1 h3,
+.row .row-2 h3,
+.jm_size {
+    color: #031b4e;
+    font-size: 20px;
+}
+
+.row .row-1 p,
+.row .row-2 p,
+.cards-row p {
+    color: #4e5f83;
+    font-size: 18px;
+}
+
+.carousel-row {
+    padding-top: 60px;
+}
+
+.dev h4 {
+    margin-top: 30px;
+}
+
+.dev p {
+    color: #4e5f83;
+    padding-top: 20px;
+}
+
+.cards-row {
+    margin-top: 60px;
+}
+
+.jm_block {
+    padding-right: 30px;
+}
+
+.jm_block img, h5 {
+    margin-bottom: 20px;
+}
+
+.globe {
+    background-image: url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+}
+
+.jm_cta {
+    text-align: center;
+    font-size: 22px;
+    background-image: url(https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format);
+}
+
+.jm_cta button {
+    margin-top: 20px;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.nest-row ul li a {
+    color: hsla(0,0%,100%,0.5);
+    padding-top: 10px;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.jm_credits {
+    border-top: 1px solid hsla(0,0%,100%,0.5);
+}
+
+.jm_credits span {
+    padding-left: 18px;
+    color: hsla(0,0%,100%,0.5);
+    vertical-align: middle;
+}
+
+.jm_social-icon {
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+    text-align: right;
+}
+
+
+.jm_social-icon .fab {
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #7f8693;
+}
+
+.jm_credits img {
+    width: 40px;
+    height: 30px;
+}
+
+.jm_logo {
+    padding-top: 15px;
 }
