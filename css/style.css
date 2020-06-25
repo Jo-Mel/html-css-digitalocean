@@ -17,8 +17,8 @@ header {
 }
 
 section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .bg-blue {
@@ -168,6 +168,10 @@ section {
     font-size: 18px;
 }
 
+.globe h2 {
+    padding-bottom: 30px;
+}
+
 .carousel-row {
     padding-top: 60px;
 }
@@ -265,14 +269,21 @@ footer {
     padding-top: 15px;
 }
 
-@media screen and (max-width: 992px) {
-    .jm_social-icon {
-        text-align: left;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .jm_social-icon {
         text-align: left;
     }
+}
 
+@media screen and (min-width: 768px) {
+    .jm_social-icon {
+        text-align: right;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .jm_inline  li {
+        display: inline-block;
+    }
 }
